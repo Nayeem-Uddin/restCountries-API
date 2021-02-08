@@ -36,9 +36,9 @@ const renderCountryInfo = country =>{
     //console.log(country);
     const countryInfo = document.getElementById('countryInfo');
     countryInfo.innerHTML = `
-        <h1>${country.name}</h1>
-        <h3>${country.area}</h3>
-        <p>${country.population}</p>
+        <h1>Name : ${country.name}</h1>
+        <h3>Area : ${country.area}</h3>
+        <p>population : ${country.population}</p>
         <img src="${country.flag}">
     `;
 }

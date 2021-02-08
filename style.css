@@ -18,5 +18,6 @@
     color: gray;
 }
 #countryInfo img{
+    text-align: center;
     width: 250px;
 }
