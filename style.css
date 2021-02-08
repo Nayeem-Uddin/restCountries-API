@@ -1,0 +1,19 @@
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.country{
+    border: 2px solid tomato;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.country-details{
+    font-size: 45px;
+    color: goldenrod;
+}
+.capital-details{
+    font-size: 25px;
+    color: gray;
+}
